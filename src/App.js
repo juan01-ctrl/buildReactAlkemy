@@ -62,6 +62,7 @@ function App() {
               setSearch={setSearch}
             />
           }
+          exact
         />
 
         <Route
