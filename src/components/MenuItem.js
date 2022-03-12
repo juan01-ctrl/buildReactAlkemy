@@ -1,4 +1,4 @@
-import React, { createElement, Fragment, useState } from "react";
+import React, {  Fragment, useState } from "react";
 
 const MenuItem = ({ data, handleAddToMenu, handleRemoveToMenu }) => {
   const [detailsActive, setDetailsActive] = useState(false);
