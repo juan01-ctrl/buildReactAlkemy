@@ -1,0 +1,56 @@
+.loader__container-login{
+    position: absolute;
+  width: 100vw;
+  height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000060;
+}
+.loader__container-home{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top:2rem ;
+}
+.loader-svg{
+	width: 100%;
+	max-width: 10rem;
+	animation: rotate 3.4s linear infinite;
+}
+
+circle {
+	fill: none;
+	stroke: slateblue;
+	stroke-width: 8px;
+	stroke-dasharray: 300;
+	animation: outline 2s cubic-bezier(0.77,0,0.18,1) infinite;
+}
+
+@keyframes outline {
+	0% {
+		stroke-dashoffset: 0;
+	}
+	5% {
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dashoffset: 300;
+	}
+	95% {
+		stroke-dashoffset: 600;
+	}
+	100% {
+		stroke-dashoffset: 600;
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0turn);
+	}
+	to {
+		transform: rotate(-1turn);
+	}
+}
